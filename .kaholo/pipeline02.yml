@@ -1,24 +1,6 @@
 configurations: []
 executionInputs: []
-triggers:
-  - description: '1'
-    name: '1'
-    type: repeated
-    cron: 22 * * * *
-    datetime: null
-    configuration: null
-  - description: '2'
-    name: '2'
-    type: repeated
-    cron: 30 * * * *
-    datetime: null
-    configuration: null
-  - description: '3'
-    name: '3'
-    type: repeated
-    cron: 0 * * * *
-    datetime: null
-    configuration: null
+triggers: []
 steps:
   - params:
       - name: COMMANDS
