@@ -28,7 +28,7 @@ steps:
     nextStep: null
 kaholoVersion: 6.2.0
 name: pipeline01
-description: ''
+description: '1'
 agent:
   type: dynamic
   name: agent-php
