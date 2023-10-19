@@ -4,7 +4,7 @@ triggers:
   - description: '1'
     name: '1'
     type: repeated
-    cron: 11 * * * *
+    cron: 22 * * * *
     datetime: null
     configuration: null
 steps:
