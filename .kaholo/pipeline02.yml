@@ -7,16 +7,18 @@ steps:
         code: false
         value: echo a
       - name: finishSignal
+        code: false
         value: exit
-        code: false
       - name: shell
-        value: default
         code: false
+        value: default
       - name: workingDir
         code: false
+        value: null
     type: plugin
     id: CommandLine1
     displayName: Command Line
+    description: sleep 20
     timeout: null
     agent: null
     retries: null
