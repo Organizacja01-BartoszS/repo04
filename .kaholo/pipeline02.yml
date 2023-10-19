@@ -31,7 +31,7 @@ name: pipeline02
 description: ''
 agent: agent-d8b66d5db-gf84z-linux
 timeout: ''
-maxConcurrency: 1
+maxConcurrency: 3
 firstStep: CommandLine1
 content: |
   configurations: []
