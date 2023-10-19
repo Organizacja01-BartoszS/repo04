@@ -13,6 +13,12 @@ triggers:
     cron: 30 * * * *
     datetime: null
     configuration: null
+  - description: '3'
+    name: '3'
+    type: repeated
+    cron: 0 * * * *
+    datetime: null
+    configuration: null
 steps:
   - params:
       - name: COMMANDS
