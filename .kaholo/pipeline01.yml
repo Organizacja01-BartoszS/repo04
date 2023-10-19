@@ -29,7 +29,10 @@ steps:
 kaholoVersion: 6.2.0
 name: pipeline01
 description: ''
-agent: null
-timeout: null
+agent:
+  type: dynamic
+  name: agent-php
+  size: small
+timeout: ''
 maxConcurrency: 1
 firstStep: CommandLine1
