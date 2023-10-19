@@ -18,7 +18,7 @@ steps:
     type: plugin
     id: CommandLine1
     displayName: Command Line
-    description: '1'
+    description: '12'
     timeout: null
     agent: null
     retries: null
