@@ -5,7 +5,7 @@ steps:
   - params:
       - name: COMMANDS
         code: false
-        value: echo a
+        value: sleep 20
       - name: finishSignal
         code: false
         value: exit
