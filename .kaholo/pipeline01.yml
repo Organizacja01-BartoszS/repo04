@@ -1,7 +1,7 @@
 configurations: []
 executionInputs: []
 triggers:
-  - name: '33'
+  - name: '3'
     type: plugin
     description: '3'
     plugin: gitops
