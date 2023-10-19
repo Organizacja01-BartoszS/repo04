@@ -7,6 +7,12 @@ triggers:
     cron: 22 * * * *
     datetime: null
     configuration: null
+  - description: '2'
+    name: '2'
+    type: repeated
+    cron: 30 * * * *
+    datetime: null
+    configuration: null
 steps:
   - params:
       - name: COMMANDS
