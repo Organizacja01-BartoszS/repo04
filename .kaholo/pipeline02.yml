@@ -1,17 +1,3 @@
-configurations: []
-executionInputs: []
-triggers:
-  - name: '2'
-    type: plugin
-    description: '2'
-    plugin: gitops
-    configuration: null
-    method: push-branch
-    params:
-      - name: branches
-        value: null
-      - name: branchesIgnore
-        value: null
 steps:
   - params:
       - name: COMMANDS
@@ -37,6 +23,9 @@ steps:
     pluginAccount: null
     method: execute
     nextStep: null
+triggers: []
+configurations: []
+executionInputs: []
 kaholoVersion: 6.2.0
 name: pipeline02
 description: ''
@@ -44,3 +33,50 @@ agent: agent-d8b66d5db-gf84z-linux
 timeout: ''
 maxConcurrency: 3
 firstStep: CommandLine1
+content: |
+  configurations: []
+  executionInputs: []
+  triggers:
+    - name: '2'
+      type: plugin
+      description: '2'
+      plugin: gitops
+      configuration: null
+      method: push-branch
+      params:
+        - name: branches
+          value: null
+        - name: branchesIgnore
+          value: null
+  steps:
+    - params:
+        - name: COMMANDS
+          code: false
+          value: sleep 50
+        - name: finishSignal
+          code: false
+          value: exit
+        - name: shell
+          code: false
+          value: default
+        - name: workingDir
+          code: false
+          value: null
+      type: plugin
+      id: CommandLine1
+      displayName: Command Line
+      description: sleep 20
+      timeout: null
+      agent: null
+      retries: null
+      plugin: CommandLine@3.2.1
+      pluginAccount: null
+      method: execute
+      nextStep: null
+  kaholoVersion: 6.2.0
+  name: pipeline02
+  description: ''
+  agent: agent-d8b66d5db-gf84z-linux
+  timeout: ''
+  maxConcurrency: 3
+  firstStep: CommandLine1
