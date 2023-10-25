@@ -1,17 +1,6 @@
 configurations: []
 executionInputs: []
-triggers:
-  - name: '2'
-    type: plugin
-    description: '2'
-    plugin: gitops
-    configuration: null
-    method: push-branch
-    params:
-      - name: branches
-        value: null
-      - name: branchesIgnore
-        value: null
+triggers: []
 steps:
   - params:
       - name: COMMANDS
@@ -28,7 +17,7 @@ steps:
         value: null
     type: plugin
     id: CommandLine1
-    displayName: Command Line
+    displayName: Command Line 2
     description: sleep 20
     timeout: null
     agent: null
